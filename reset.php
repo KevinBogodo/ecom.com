@@ -21,8 +21,7 @@ if (isset($_GET['id']) && isset($_GET['token'])) {
   exit();
 }
 
- ?>
-<?php require 'inc/header.php'; ?>
+require 'inc/header.php'; ?>
 
   <h1>Réinitialiser mot de passe</h1>
 
