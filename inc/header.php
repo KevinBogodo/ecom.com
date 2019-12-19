@@ -8,6 +8,7 @@
     <title>header</title>
     <!-- Custom styles for this template -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
   </head>
   <body>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
