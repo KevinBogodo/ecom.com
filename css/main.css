@@ -8,9 +8,20 @@ h2,h3{
 h2{
   font-size: 18px;
 }
+html, body{
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+  background:#f6f6f6;
+  font-family: 'arial';
+}
+.wrapper{
+  min-height: 100%;
+}
 .footer-top{
   background: #111;
   padding: 80px 0;
+  position: relative;
 }
 .segment-one h3 {
     font-family: Courgette;
@@ -75,9 +86,19 @@ h2{
 }
 .segment-four form input[type=submit]{
   background: #c65039;
+  width: 100px;
   border: none;
-  padding: 3px 5px;
-  margin-left: -3px;
+  padding: 3px 2px;
+  margin-left: -5px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.segment-four form input[type=email]{
+  background: #fff;
+  width: 150px;
+  border: none;
+  padding: 3px 2px;
+  margin-left: -5px;
   color: #fff;
   text-transform: uppercase;
 }
