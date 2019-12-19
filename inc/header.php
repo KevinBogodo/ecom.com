@@ -46,7 +46,7 @@
   </div>
 </nav>
 <!-- /.container -->
-<div class="container">
+<div class="container wrapper">
 
   <?php if(isset($_SESSION['flash'])): ?>
     <?php foreach($_SESSION['flash'] as $type => $message): ?>
