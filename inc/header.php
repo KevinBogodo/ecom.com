@@ -13,7 +13,7 @@
 
   </head>
   <body>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top text-white">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top text-white" style="background:#1976d2">
   <a class="navbar-brand" href="index.php">ecom.com</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -58,7 +58,7 @@
   </div>
 </nav>
 <!-- /.container -->
-<div class="container wrapper">
+<div class="container wraper">
 
   <?php if(isset($_SESSION['flash'])): ?>
     <?php foreach($_SESSION['flash'] as $type => $message): ?>

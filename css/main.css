@@ -15,11 +15,11 @@ html, body{
   background:#f6f6f6;
   font-family: 'arial';
 }
-.wrapper{
+.wraper{
   min-height: 100%;
 }
 .footer-top{
-  background: #111;
+  background: #1976d2;
   padding: 80px 0;
   position: relative;
 }
@@ -104,7 +104,7 @@ html, body{
 }
 .footer-bottom-text{
   text-align: center;
-  background: #000;
+  background: #1976d2;
   line-height: 75px;
 }
 
