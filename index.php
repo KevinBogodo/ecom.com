@@ -49,7 +49,25 @@
   <span class="carousel-control-next-icon" aria-hiden="true"></span>
   <span class="sr-only">Next</span>
 </a>
-  </div>
+</div>
+
+<div class="container marketing">
+  <h2 id="produit1" style="padding-top:65px;">produit1</h2>
+  <hr>
+  <div class="row" id="produitID"></div>
+  <h2 id="produit2" style="padding-top:65px;">produit2</h2>
+  <hr>
+  <div class="row" id="produit2ID"></div>
+  <h2 id="produit3" style="padding-top:65px;">produit3</h2>
+  <hr>
+  <div class="row" id="produit3ID"></div>
+  <hr class="featurette-divider">
+</div>
+
+  <!-- MODAL -->
+
+</div>
+
 
 </main>
 

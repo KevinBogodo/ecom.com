@@ -44,7 +44,7 @@
           <i style="" id="cart_n"></i>
         </a>
         | (<?= $_SESSION['auth']->credit; ?> XAF) |
-        <a style="cursor:pointer" class="text-white nav-link" data-toggle="modal" href="account.php">
+        <a style="cursor:pointer" class="text-white nav-link" href="account.php">
           <i class="text-waring far fa-user-circle"></i>
         </a>|
         <a  href="logout.php" class="text-white nav-link">
