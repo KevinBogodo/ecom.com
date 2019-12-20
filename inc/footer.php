@@ -22,10 +22,10 @@
           <div class="col-md-3 col-sm-6 col-xs-12 segment-three md-mb-30 sm-mb-30">
               <h2>Follow US</h2>
               <p>Please Follow US on our Social Media profile in order to keep update.</p>
-              <a href="#"><i class="fa fa-facebook"></i></a>
-              <a href="#"><i class="fa fa-youtube"></i></a>
-              <a href="#"><i class="fa fa-linkedin"></i></a>
-              <a href="#"><i class="fa fa-whatsapp"></i></a>
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+              <a href="#"><i class="fab fa-whatsapp"></i></a>
           </div>
           <div class="col-md-3 col-sm-6 col-xs-12 segment-four md-mb-30 sm-mb-30">
               <h2>Our newsleter</h2>

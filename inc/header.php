@@ -9,16 +9,18 @@
     <!-- Custom styles for this template -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
   </head>
   <body>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-  <a class="navbar-brand" href="index.php">Navbar</a>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top text-white">
+  <a class="navbar-brand" href="index.php">ecom.com</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
   <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-    <ul class="navbar-nav mr-auto">
+    <ul class="navbar-nav mr-auto menu">
       <li class="nav-item active">
         <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
       </li>
@@ -33,16 +35,25 @@
       </li>
 
     </ul>
-    <ul class="form-inline my-3 my-lg-0">
+
+    <form class="form-inline my-3 my-lg-0">
       <?php if(isset($_SESSION['auth'])): ?>
         <!-- ajouter le nom ou le crédit de l'utilisateur <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search"> -->
-        <?= $_SESSION['auth']->credit; ?> XAF
-        <a  href="logout.php" class="btn btn-secondary my-2 my-sm-0">Deconnexion</a>
+        <a class="text-white nav-link" href="#">
+          <i class="text-waring fas fa-shopping-cart"> </i>cart
+        </a>
+        | (<?= $_SESSION['auth']->credit; ?> XAF) |
+        <a class="text-white nav-link" href="account.php">
+          <i class="text-waring far fa-user-circle"></i>
+        </a>|
+        <a  href="logout.php" class="text-white nav-link">
+            <i class="text-waring fas fa-sign-out-alt"></i>
+        </a>
       <?php else: ?>
-          <a class="nav-link" href="register.php">S'inscrire</a>
-          <a class="nav-link" href="login.php">Se connecter</a>
+          <a class="text-white nav-link" href="register.php">S'inscrire</a>
+          <a class="text-white nav-link" href="login.php">Se connecter</a>
       <?php endif; ?>
-    </ul>
+    </form>
   </div>
 </nav>
 <!-- /.container -->
