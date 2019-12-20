@@ -41,9 +41,10 @@
         <!-- ajouter le nom ou le crédit de l'utilisateur <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search"> -->
         <a class="text-white nav-link" href="#">
           <i class="text-waring fas fa-shopping-cart"> </i>cart
+          <i style="" id="cart_n"></i>
         </a>
         | (<?= $_SESSION['auth']->credit; ?> XAF) |
-        <a class="text-white nav-link" href="account.php">
+        <a style="cursor:pointer" class="text-white nav-link" data-toggle="modal" href="account.php">
           <i class="text-waring far fa-user-circle"></i>
         </a>|
         <a  href="logout.php" class="text-white nav-link">
