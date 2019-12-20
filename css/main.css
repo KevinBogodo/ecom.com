@@ -17,7 +17,51 @@ html, body{
 }
 .wraper{
   min-height: 100%;
+  min-width: 100%;
 }
+
+/*
+CSS for carousel
+*/
+.carousel{
+  margin-bottom: 2rem;
+  z-index:200;
+}
+.carousel-caption{
+  bottom: 3rem;
+  z-index:10;
+}
+.carousel-item{
+  height: 32rem;
+  background-color: #777;
+}
+.carousel-item >img{
+  position: absolute;
+  top: 0;
+  left:0;
+}
+.marketing .col-lg4{
+   margin-bottom: 1.5rem;
+   text-align: center;
+}
+.marketing h2{
+  font-weight: 400;
+}
+.marketing .col-lg-4{
+  margin-right: 75rem;
+  margin-left: .75rem;
+}
+.featurette-divider{
+  margin: 5rem 0;
+}
+.featurette-heading{
+  font-wheight:300;
+  line-height: 1;
+  letter-spacing: -0.5rem;
+}
+
+
+/* css for footer */
 .footer-top{
   background: #1976d2;
   padding: 80px 0;
@@ -107,7 +151,6 @@ html, body{
   background: #1976d2;
   line-height: 75px;
 }
-
 /* responsive CSS*/
 @media only screen and (min-width: 768px) and (max-width: 991px){
   .md-mb-30{

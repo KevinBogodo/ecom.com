@@ -21,7 +21,7 @@
       </div>
     </div>
     <div class="carousel-item">
-      <img class="e d-block w-100" src="img/03.jpg" alt="Second Slide">
+      <img class="d-block w-100" src="img/03.jpg" alt="Second Slide">
       <div class="container">
         <div class="carousel-caption text-left">
             <h1>Second Slide</h1>
@@ -30,7 +30,7 @@
       </div>
     </div>
     <div class="carousel-item">
-      <img class="e d-block w-100" src="img/05.jpg" alt="Third Slide">
+      <img class="d-block w-100" src="img/05.jpg" alt="Third Slide">
       <div class="container">
         <div class="carousel-caption text-right">
             <h1>Third Slide</h1>
@@ -38,9 +38,17 @@
         </div>
       </div>
     </div>
-
-</div>
-
+ </div>
+<a style="z-index:101;" class="carousel-control-prev" href="#mycarousel"
+ role="button" data-slide="prev">
+  <span class="carousel-control-prev-icon" aria-hiden="true"></span>
+  <span class="sr-only">Previous</span>
+</a>
+<a style="z-index:101;" class="carousel-control-next" href="#mycarousel"
+ role="button" data-slide="next">
+  <span class="carousel-control-next-icon" aria-hiden="true"></span>
+  <span class="sr-only">Next</span>
+</a>
   </div>
 
 </main>
