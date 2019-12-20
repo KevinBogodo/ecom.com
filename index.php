@@ -1,4 +1,8 @@
-<?php require 'inc/header.php' ?>
+<?php
+
+  session_start();
+ require 'inc/header.php'
+ ?>
 
 
 
